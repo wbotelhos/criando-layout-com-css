@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+
+/* PARTE 2 */
+body#corpo {
+	background-color: #EEF4FB;
+	font: 10px verdana; 
+}
+
+div#geral {
+	margin: 0 auto;
+	width: 1130px;
+}
+
+
+/* PARTE 3 */
+div#topo {
+	background-color: #FFF;
+	height: 110px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+div#menu {
+	background-color: #FFF;
+	height: 30px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+
+/* PARTE 4 */
+div#esquerda {
+	float: left;
+	height: 430px;
+	margin-right: 5px;
+	width: 145px;
+}
+
+div#sub-conteudo {
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 5px;
+	min-height: 430px;
+	width: 830px; /* 145px - 145px - 5px - 5px */
+}
+
+
+/* PARTE 5 */
+div#direita {
+	float: right;
+	height: 430px;
+	margin-left: 5px;
+	width: 145px;
+}
+
+div#rodape {
+	background-color: #FFF;
+	clear: both;
+	height: 25px;
+	width: 100%;
+}
+
+
+/* PARTE 6 */
+div#conteudo {
+	
+}
+
+div#info {
+	background-color: #FFF;
+	height: 200px;
+	width: 140px;
+}
+
+div#top-filme,
+div#top-usuario {
+	background-color: #FFF;
+	margin-bottom: 5px;
+	min-height: 190px;
+	width: 140px;
+}
+
+
+/* PARTE 7 */
+div#info,
+div#menu, 
+div#rodape,
+div#sub-conteudo,
+div#topo,
+div#top-filme,
+div#top-usuario {
+	border-radius: 8px; /* CSS3 */
+	-khtml-border-radius: 8px; /* Safari() */
+	-moz-border-radius: 8px; /* Mozilla */
+	-opera-border-radius: 8px; /* Opera */
+	-webkit-border-radius: 8px; /* Safari */
+}

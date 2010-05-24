@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+/* CENTER */
+center#boas-vindas {
+	color: #888;
+	padding-top: 15px;
+}
+
+center#rodape-texto {
+	padding-top: 5px;
+}
+
+center.top-titulo {
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 8px;
+}
+
+
+/* DIV */
+div#info-texto {
+	color: #888;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+
+div#menu-links {
+	color: #AAA;
+	font: 10px verdana;
+	padding-left: 15px;
+	padding-top: 7px;
+}
+
+div#titulo {
+	color: #369;
+	font: bold 18px verdana;
+	padding-left: 15px;
+	padding-top: 40px;
+}
+
+div.top-items {
+	padding-left: 10px;
+}
+
+/* SPAN */
+span.info-texto-destaque {
+	font-weight: bold;
+}
